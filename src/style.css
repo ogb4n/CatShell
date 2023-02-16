@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.images {
+    left: 92px;
+    bottom: 3px;
+}
+
+#DevilD {
+    top: 70px;
+}
+#panneau {
+    top: 125px;
+    left: 38%;
+}
