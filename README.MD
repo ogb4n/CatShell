@@ -20,8 +20,13 @@ This is a Node.JS program using electron and some other libraries to pop up a wi
 When you start the executable a script will be executed at the same moment the "shitty app" starts, it goals is to copy the executable hidden script to a not much spotted folder on the "infected" machine and just make it as a service then start it. The script will initialize a connexion through a Netcat listening port on the "attacker" machine. 
 
 ## What you will need ? 
-<br>
+<br><br>
 
 - NodeJs to compile the given code
 - Netcat to listen
+<br><br>
+### How to use & edit
+<br><br>
+- You will need first to install libraries with `npm -i` from inside the CatShell folder
 
+- 

@@ -1,1 +1,0 @@
-COPY "C:\Users\Donib\Desktop\script_js\ressources-win.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
