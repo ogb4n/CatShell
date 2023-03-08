@@ -29,7 +29,7 @@ When you start the executable a script will be executed at the same moment the "
 <br><br>
 - You will need first to install libraries with `npm -i` from inside the CatShell folder and then install the pkg package with `sudo npm i pkg -g`
 
--You will need to build the "infected file" with the command : `pkg ressources.js`
+- You will need to build the "infected file" with the command : `pkg ressources.js`
 
 - Start Tailwind from the folder with the command `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch` to get the electron website working properly
 
